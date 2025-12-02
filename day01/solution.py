@@ -13,7 +13,7 @@ def part1(input_data, current_location):
         if direction == "R":
             current_location = current_location + steps
 
-        elif direction == "L":
+        else:
             current_location = current_location - steps
 
         current_location = current_location % 100
@@ -31,18 +31,18 @@ def part2(input_data, current_location):
         direction = instruction[0]
         steps = int(instruction[1:])
 
-        passing_zero_times += steps // 100
-        remainder = steps % 100
-
         if direction == "R":
-            end_location = (current_location + remainder) % 100
-            if current_location + remainder >= 100:
-                passing_zero_times += 1
+            k0 = (100 - current_location) % 100
+            end_location = (current_location + steps) % 100
+        else:
+            k0 = current_location % 100
+            end_location = (current_location - steps) % 100
 
-        elif direction == "L":
-            end_location = (current_location - remainder) % 100
-            if current_location - remainder < 0:
-                passing_zero_times += 1
+        if k0 == 0:
+            k0 = 100
+
+        if steps >= k0:
+            passing_zero_times += 1 + (steps - k0) // 100
 
         current_location = end_location
 

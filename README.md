@@ -6,7 +6,7 @@ My solutions to the [Advent of Code 2025](https://adventofcode.com/2025) challen
 
 | Day | Problem | Solution | Status |
 |-----|---------|----------|--------|
-| 01 | [Day 1](https://adventofcode.com/2025/day/1) | [solution.py](day01/solution.py) | ⬜ |
+| 01 | [Day 1](https://adventofcode.com/2025/day/1) | [solution.py](day01/solution.py) | ✅ |
 | 02 | [Day 2](https://adventofcode.com/2025/day/2) | [solution.py](day02/solution.py) | ⬜ |
 | 03 | [Day 3](https://adventofcode.com/2025/day/3) | [solution.py](day03/solution.py) | ⬜ |
 | 04 | [Day 4](https://adventofcode.com/2025/day/4) | [solution.py](day04/solution.py) | ⬜ |
@@ -19,10 +19,6 @@ My solutions to the [Advent of Code 2025](https://adventofcode.com/2025) challen
 | 11 | [Day 11](https://adventofcode.com/2025/day/11) | [solution.py](day11/solution.py) | ⬜ |
 | 12 | [Day 12](https://adventofcode.com/2025/day/12) | [solution.py](day12/solution.py) | ⬜ |
 
-**Legend:**
-- ⬜ Not started
-- 🟡 In progress
-- ✅ Completed
 
 ## Repository Structure
 
@@ -37,7 +33,3 @@ My solutions to the [Advent of Code 2025](https://adventofcode.com/2025) challen
 │   └── input.txt
 └── ...
 ```
-
-Each day has its own directory containing:
-- `solution.py` - The solution code
-- `input.txt` - The puzzle input
