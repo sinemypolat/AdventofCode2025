@@ -13,10 +13,12 @@ def find_invalid_numbers(input_data):
     valid_ids = []
     for start, end in pairs:
         start, end = int(start), int(end)
+
         for id_num in range(start, end + 1):
             str_id_num = str(id_num)
             len_id = len(str_id_num)
             mid = len_id // 2
+
             if len_id % 2 == 0:
                 if str_id_num[0:mid] == str_id_num[mid:]:
                     invalid_ids.append(id_num)
