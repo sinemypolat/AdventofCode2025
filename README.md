@@ -8,7 +8,7 @@ My solutions to the [Advent of Code 2025](https://adventofcode.com/2025) challen
 |-----|---------|----------|--------|
 | 01 | [Day 1](https://adventofcode.com/2025/day/1) | [solution.py](day01/solution.py) | ✅ |
 | 02 | [Day 2](https://adventofcode.com/2025/day/2) | [solution.py](day02/solution.py) | ✅ |
-| 03 | [Day 3](https://adventofcode.com/2025/day/3) | [solution.py](day03/solution.py) | ⬜ |
+| 03 | [Day 3](https://adventofcode.com/2025/day/3) | [solution.py](day03/solution.py) | ✅ |
 | 04 | [Day 4](https://adventofcode.com/2025/day/4) | [solution.py](day04/solution.py) | ⬜ |
 | 05 | [Day 5](https://adventofcode.com/2025/day/5) | [solution.py](day05/solution.py) | ⬜ |
 | 06 | [Day 6](https://adventofcode.com/2025/day/6) | [solution.py](day06/solution.py) | ⬜ |
