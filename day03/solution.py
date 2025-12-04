@@ -1,6 +1,5 @@
 """
 Advent of Code 2025 - Day 3
-Solution template
 """
 
 
